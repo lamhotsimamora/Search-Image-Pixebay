@@ -11,3 +11,7 @@
 ## By <a href="https://github.com/picturepan2">https://github.com/picturepan2</a>
 
 
+
+### Garuda Javascript 2
+<a href="bit.ly/GarudaJavascript2">bit.ly/GarudaJavascript2</a>
+
