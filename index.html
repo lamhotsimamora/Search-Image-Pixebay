@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search Image | Garuda Javascript 2</title>
+	<link rel="stylesheet" type="text/css" href="asset/load.css">
+	<script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="asset/instagram.min.css">
+	<link rel="stylesheet" type="text/css" href="asset/spectre.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+	
+	<script type="text/javascript" src="https://cdn.rawgit.com/lamhotsimamora/Download-JS/master/download.js"></script>
+	<link rel="icon" href="asset/icon.png" type="image/png" />
+</head>
+<body id="garuda_app">
+	<br>
+	<div class="container is-widescreen">
+		<br>
+
+		<center>
+			<h2>
+					<span class="tag is-link">Search</span> <span class="tag is-info">Funny</span> <span class="tag is-success">Image</span> 
+			</h2>
+			<hr>
+			
+			<div class="control">
+			    <div class="tags has-addons">
+					<span class="tag is-dark"><i class="fa fa-github" aria-hidden="true"> <a target="_blank" href="https://github.com/lamhotsimamora/Garuda-Javascript"> Github</a></i></span>
+					<span class="tag is-primary"><a href="https://bit.ly/GarudaJavascript2" target="_blank">Garuda Javascript 2</a></span>
+			
+			    </div>
+		  	</div>
+				
+			
+			<hr>
+
+
+		</center>
+		
+		<h3 id="display_total">
+			  	
+	    </h3> <br>
+		<div class="input-group">
+			  
+			  <br>
+			  <input type="text" class="input is-primary" onkeypress="enterSearchImage(event);" id="my_query"   placeholder="Search Image">
+			  <br> <br>
+			  <span class="input-group-btn">
+			    <button class="button is-primary" id="btn_search" type="button">Go</button>
+			  </span>
+		</div>
+		<button class="button is-warning" id="btn_clear">Clear</button> &nbsp
+		<button class="button is-secondary" id="btn_down">Go Down</button>
+		<br>
+		<br>
+			<div class="form-group">
+			  <label for="sel1">Select Filter:</label>
+			  <select class="dropdown-content" id="my_filter">
+				    <option id="1" value="1">==No Filter==</option>
+				    <option id="filter-1977" value="filter-1977"> 1977</option>
+				    <option id="filter-aden" value="filter-aden"> aden</option>
+				    <option id="filter-amaro" value="filter-amaro"> amaro</option>
+				    <option id="filter-ashby" value="filter-ashby"> ashby</option>
+				    <option id="filter-brannan" value="filter-brannan"> brannan</option>
+				    <option id="filter-brooklyn" value="filter-brooklyn"> brooklyn</option>
+				    <option id="filter-charmes" value="filter-charmes"> charmes</option>
+				    <option id="filter-clarendon" value="filter-clarendon"> clarendon</option>
+				    <option id="filter-crema" value="filter-crema"> crema</option>
+				    <option id="filter-dogpatch" value="filter-dogpatch"> dogpatch</option>
+				    <option id="filter-earlybird" value="filter-earlybird"> earlybird</option>
+				    <option id="filter-gingham" value="filter-gingham"> gingham</option>
+			  </select>
+			  <button id="btn_no_filter" class="button is-danger">No Filter</button>
+			</div>
+
+			<hr>
+			<div class="section">
+				<div id="result_disp">
+				</div>
+			</div>
+
+	</div>
+	<div id="down_body"></div>
+</body>
+<script type="text/javascript" src="component.js"></script>
+<script type="text/javascript" src="event.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>
